@@ -1,3 +1,6 @@
+###
+# 5개의 프레임을 뽑는 코드
+###
 import os
 import pandas as pd
 import numpy as np

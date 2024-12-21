@@ -28,6 +28,10 @@ for col in coordinate_columns:
 smoothed_data.to_csv(smoothed_csv, index=False)
 print(f"Smoothed data saved to: {smoothed_csv}")
 
+
+
+
+### 여기 밑으로는 사실 없어도 되는 코드, peak detection은 다음 5번 파일에서 함
 # Enhanced Trough Detection Function
 def detect_peaks_and_troughs(column, time_axis, smoothed_series):
     # Detect raw peaks and troughs
